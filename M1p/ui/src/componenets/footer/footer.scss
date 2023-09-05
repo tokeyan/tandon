@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    margin-top: 30px;
+    .desc{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 40px;
+        h4{
+          font-size: 25px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 400;
+            margin: 3px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.subnav{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    .bars{
+        margin: 0px 10px;
+        a{
+            margin-left: 18px;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 10px;
+        }
+    }
+}

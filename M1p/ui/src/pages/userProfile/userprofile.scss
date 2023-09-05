@@ -1,0 +1,57 @@
+.userprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(237, 241, 245);
+    font-family: 'Ubuntu',sans-serif;
+    .formuser{
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 8px;
+        h1{
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        h2{
+            font-size: 20px;
+            text-align: center;
+        }
+        .userInput{
+           margin: 20px;
+           display: flex;
+           flex-direction: column;
+           span{
+            font-size: 14px;
+            margin-bottom: 8px;
+           }
+           input {
+            border: 1px solid #cec7c7;
+            height: 40px;
+            width: 310px;
+            padding: 3px 5px;
+            font-size: 15px;
+            border-radius: 3px;
+           }
+           .container{
+            .w-350{
+                width: 310px;
+                height: 20px;
+               }
+           }
+        }
+        .btn{
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            outline: none;
+            background-color: #000;
+            font-weight: 500;
+        }
+    }
+}
